@@ -1,0 +1,32 @@
+{
+  "name": "csv-bulk-reader",
+  "version": "1.0.0",
+  "description": "Wrapper for csv-parser to read csvs in bulk, with ability to read one line at a time. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-anas/csv-bulk-reader.git"
+  },
+  "keywords": [
+    "csv",
+    "reader",
+    "node"
+  ],
+  "author": "Syed Ahmed Anas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmed-anas/csv-bulk-reader/issues"
+  },
+  "homepage": "https://github.com/ahmed-anas/csv-bulk-reader#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
